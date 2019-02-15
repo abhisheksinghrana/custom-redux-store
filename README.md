@@ -1,25 +1,16 @@
-<h1 align="center">Simple Redux Store</h1>
-<h4 align="center">Vanilla TypeScript example of a Redux Store</h4>
-
----
-
-<a href="https://ultimateangular.com" target="_blank"><img src="https://ultimateangular.com/assets/img/banners/ua-github.svg"></a>
-
----
-
-> This repo serves as the seed project for the Ultimate Angular NGRX Store + Effects course, as well as stepped solutions in separate branches, come and [learn NGRX](https://ultimateangular.com/ngrx-store-effects) with us!
+<h1 align="center">Create Redux Store with Vanilla TypeScript</h1>
 
 ## Prerequisites
 
-* Install [Node.js](https://nodejs.org/en/download/)
+- Install [Node.js](https://nodejs.org/en/download/)
 
-* Install TypeScript
+- Install TypeScript
 
 ```bash
 npm install -g typescript
 ```
 
-* Install Yarn (optional)
+- Install Yarn (optional)
 
 If you want to roll with npm, feel free to do so. If you'd like to try Yarn, run the following or [another installation method](https://yarnpkg.com/lang/en/docs/install/):
 
