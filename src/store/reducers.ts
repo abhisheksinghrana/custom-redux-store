@@ -19,10 +19,7 @@ export function reducer(
       const data = state.data.filter(
         todo => todo.label !== action.payload.label
       );
-      return {
-        ...state,
-        data
-      };
+      return { ...state, data };
     }
   }
   return state;

@@ -1,14 +1,21 @@
+import { ITodo } from './models';
+
 // action constants
 export const ADD_TODO = '[Todo] Add Todo';
 export const REMOVE_TODO = '[Todo] Remove Todo';
 
-// action creators
-export class AddTodo {
-  readonly type = ADD_TODO;
-  constructor(private payload: any) {}
+interface IActions<T> {
+  readonly type: string;
+  payload: T;
 }
 
-export class RemoveTodo {
+// action creators
+export class AddTodo implements IActions<ITodo> {
+  readonly type = ADD_TODO;
+  constructor(public payload: ITodo) {}
+}
+
+export class RemoveTodo implements IActions<ITodo> {
   readonly type = REMOVE_TODO;
-  constructor(private payload: any) {}
+  constructor(public payload: ITodo) {}
 }
